@@ -1,4 +1,7 @@
 import React from 'react';
+import './style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {auth} from './firebase'
 import {
   MDBBtn,
   MDBContainer,
@@ -12,6 +15,9 @@ import {
 from 'mdb-react-ui-kit';
 
 function App() {
+
+  // createUserWithEmailAndPassword(auth, email, Password)
+  console.log("auth");
   return (
     <MDBContainer fluid>
 
